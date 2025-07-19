@@ -78,7 +78,7 @@ This repository presents my projects in GPU programming, leveraging both NVIDIA'
     * **Challenge (Future/Mention):** Opportunity to implement a shared/local memory optimized version.
 * **Results:** Performance screenshots (e.g., "Total Simulation Time: 101.506020 ms" for N=1000, TIME_STEPS=1000) and correctness output.
 
-### 10. OpenCL 2D Laplace Solver (Implicit from Assignment)
+### 10. OpenCL 2D Laplace Solver 
 * **Description:** Implements a 2D Laplace solver using OpenCL, comparable to the CUDA version, with specific boundary conditions.
 * **Skills Showcased:** `OpenCL kernel for Laplace solver`, `device interaction`, `workgroup size justification`, `correctness verification`.
 * **Source:** `PDP-Spring2025-Assignment-04-23042025 (1).pdf` (Question 2)
@@ -93,7 +93,7 @@ This repository presents my projects in GPU programming, leveraging both NVIDIA'
 * **Details:** `cuda_matrix_mul_naive.cu`.
 * **Justification of Workgroup Size:** Discussion on `blockDim` and `gridDim` selection.
 
-### (Optional) Heterogeneous Computing (Extra Challenge from Assignment 4)
+### (Optional) Heterogeneous Computing 
 * **Description:** Design for a heterogeneous computing solution using OpenCL across multiple devices (e.g., CPU/GPU) for a parallel problem.
 * **Skills Showcased:** `OpenCL multi-device management`, `task distribution across heterogeneous hardware`, `multi-threading for parallel device execution`.
 * **Source:** `PDP-Spring2025-Assignment-04-23042025 (1).pdf` (Extra Challenge)
