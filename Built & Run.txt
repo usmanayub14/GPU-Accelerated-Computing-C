@@ -1,0 +1,11 @@
+For Cuda:
+
+
+!nvcc q_challenge_laplace_shared_cuda.cu -o q_challenge_laplace_shared_cuda -Xcompiler -fopenmp -lgomp -gencode arch=compute_75,code=sm_75
+
+!./q_challenge_laplace_shared_cuda
+
+
+For OpenCL:
+!./q_challenge_laplace_local_opencl!g++
+ q_challenge_laplace_local_opencl.cpp -o q_challenge_laplace_local_opencl -std=c++11 -fopenmp -lOpenCL

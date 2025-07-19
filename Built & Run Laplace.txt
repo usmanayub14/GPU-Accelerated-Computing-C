@@ -1,0 +1,9 @@
+For Cuda:
+!nvcc q2_laplace_solver_cuda.cu -o q2_laplace_solver_cuda -Xcompiler -fopenmp -lgomp -gencode arch=compute_75,code=sm_75
+
+!./q2_laplace_solver_cuda
+
+For OpenCL:
+
+!g++ q2_laplace_solver_opencl.cpp -o q2_laplace_solver_opencl -std=c++11 -fopenmp -lOpenCL
+!./q2_laplace_solver_opencl

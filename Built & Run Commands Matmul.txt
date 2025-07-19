@@ -1,0 +1,7 @@
+For Cuda:
+!nvcc q1_matrix_multiplication_cuda.cu -o q1_matrix_multiplication_cuda -Xcompiler -fopenmp -lgomp -gencode arch=compute_75,code=sm_75
+!./q1_matrix_multiplication_cuda
+
+For OpenCL:
+!g++ q1_matrix_multiplication_opencl.cpp -o q1_matrix_multiplication_opencl -std=c++11 -fopenmp -lOpenCL
+!./q1_matrix_multiplication_opencl
